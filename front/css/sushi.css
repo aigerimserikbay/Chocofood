@@ -195,6 +195,7 @@ body{
 
 .food-click-food{
     align-items: center;
+    
 }
 
 .food-click-food img{
@@ -207,11 +208,11 @@ body{
     color:rgb(119, 119, 119);
 }
 
-.food-click-food p a{
+.food-click-food p.highlight{
+    color: red;
     text-align: center;
     font-size: 12px;
-    color:rgb(119, 119, 119);
-    text-decoration-line: none;
+    /* color:rgb(119, 119, 119); */
 }
 
 .restaurants_list{
